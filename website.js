@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     myPhoto.addEventListener("click", changeAppear)
 
     function changeAppear() {
-        if (myPhoto.src == "file:///Users/girlswhocode2018/development/hiking.jpg") {
+        if (myPhoto.src == "about-me/hiking.jpg") {
             myPhoto.src = "beach.jpg"
             document.body.style.backgroundColor = "#f6c9ca"
         }
