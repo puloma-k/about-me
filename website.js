@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function changeAppear() {
         if (myPhoto.src == "about-me/hiking.jpg") {
-            myPhoto.src = "beach.jpg"
+            myPhoto.src = "about-me/beach.jpg"
             document.body.style.backgroundColor = "#f6c9ca"
         }
         else {
-            myPhoto.src = "hiking.jpg"
+            myPhoto.src = "about-me/hiking.jpg"
             document.body.style.backgroundColor = "#badbe7"
         }
     }
